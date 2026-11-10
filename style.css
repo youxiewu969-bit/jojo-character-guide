@@ -1,0 +1,30 @@
+body{background-color: #21182f;
+color: white;}
+
+h1{color: gold;
+    text-align: center;
+    font-size: 40px;}
+p{text-align: center;
+    font-size: 18px;
+color: #d8b4fe;}
+
+img{width: 250px;
+    height: auto;
+    object-fit: contain;}
+
+.card{background-color: #38294d;
+    border: 3px solid gold;
+    border-radius: 12px;
+    width: auto;
+    padding: 20px;
+    margin: 0;
+    text-align: center}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 30px auto;}
+
+.card{grid-column: span 3;}
